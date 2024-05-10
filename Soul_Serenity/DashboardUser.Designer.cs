@@ -68,12 +68,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -82,6 +76,12 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -200,6 +200,13 @@
             textBoxJudul = new Guna.UI2.WinForms.Guna2TextBox();
             label4 = new Label();
             panelTeraphy = new Panel();
+            panelSelectCard = new Panel();
+            guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            cardSadness = new Guna.UI2.WinForms.Guna2Panel();
+            guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            cardWorru = new Guna.UI2.WinForms.Guna2Panel();
+            label32 = new Label();
+            label14 = new Label();
             panelEvent = new Guna.UI2.WinForms.Guna2Panel();
             flowLayoutPanelEvent = new FlowLayoutPanel();
             userControlEvent1 = new UserControlEvent();
@@ -213,13 +220,6 @@
             label39 = new Label();
             label28 = new Label();
             label25 = new Label();
-            panelSelectCard = new Panel();
-            guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
-            cardSadness = new Guna.UI2.WinForms.Guna2Panel();
-            guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            cardWorru = new Guna.UI2.WinForms.Guna2Panel();
-            label32 = new Label();
-            label14 = new Label();
             panel2 = new Panel();
             labelPassword = new Label();
             labelEmail = new Label();
@@ -296,13 +296,13 @@
             flowLayoutPanelNote.SuspendLayout();
             panelInsertNoteBook.SuspendLayout();
             panelTeraphy.SuspendLayout();
+            panelSelectCard.SuspendLayout();
             panelEvent.SuspendLayout();
             flowLayoutPanelEvent.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
-            panelSelectCard.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProfileCard).BeginInit();
             panel6.SuspendLayout();
@@ -1537,6 +1537,90 @@
             panelTeraphy.TabIndex = 4;
             panelTeraphy.Visible = false;
             // 
+            // panelSelectCard
+            // 
+            panelSelectCard.Controls.Add(guna2Panel7);
+            panelSelectCard.Controls.Add(cardSadness);
+            panelSelectCard.Controls.Add(guna2Panel4);
+            panelSelectCard.Controls.Add(cardWorru);
+            panelSelectCard.Controls.Add(label32);
+            panelSelectCard.Controls.Add(label14);
+            panelSelectCard.Location = new Point(287, 137);
+            panelSelectCard.Name = "panelSelectCard";
+            panelSelectCard.Size = new Size(1630, 965);
+            panelSelectCard.TabIndex = 0;
+            // 
+            // guna2Panel7
+            // 
+            guna2Panel7.BackColor = Color.FromArgb(36, 35, 52);
+            guna2Panel7.BackgroundImage = Properties.Resources.card_traphy__4_;
+            guna2Panel7.BackgroundImageLayout = ImageLayout.Zoom;
+            guna2Panel7.CustomizableEdges = customizableEdges40;
+            guna2Panel7.Location = new Point(1228, 235);
+            guna2Panel7.Name = "guna2Panel7";
+            guna2Panel7.ShadowDecoration.CustomizableEdges = customizableEdges41;
+            guna2Panel7.Size = new Size(360, 360);
+            guna2Panel7.TabIndex = 30;
+            // 
+            // cardSadness
+            // 
+            cardSadness.BackColor = Color.FromArgb(36, 35, 52);
+            cardSadness.BackgroundImage = Properties.Resources.card_traphy__3_;
+            cardSadness.BackgroundImageLayout = ImageLayout.Zoom;
+            cardSadness.CustomizableEdges = customizableEdges42;
+            cardSadness.Location = new Point(829, 235);
+            cardSadness.Name = "cardSadness";
+            cardSadness.ShadowDecoration.CustomizableEdges = customizableEdges43;
+            cardSadness.Size = new Size(360, 360);
+            cardSadness.TabIndex = 31;
+            cardSadness.Click += cardSadness_Click;
+            // 
+            // guna2Panel4
+            // 
+            guna2Panel4.BackColor = Color.FromArgb(36, 35, 52);
+            guna2Panel4.BackgroundImage = Properties.Resources.card_traphy__2_;
+            guna2Panel4.BackgroundImageLayout = ImageLayout.Zoom;
+            guna2Panel4.CustomizableEdges = customizableEdges44;
+            guna2Panel4.Location = new Point(432, 235);
+            guna2Panel4.Name = "guna2Panel4";
+            guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges45;
+            guna2Panel4.Size = new Size(360, 360);
+            guna2Panel4.TabIndex = 32;
+            // 
+            // cardWorru
+            // 
+            cardWorru.BackColor = Color.FromArgb(36, 35, 52);
+            cardWorru.BackgroundImage = Properties.Resources.card_traphy__1_;
+            cardWorru.BackgroundImageLayout = ImageLayout.Zoom;
+            cardWorru.CustomizableEdges = customizableEdges46;
+            cardWorru.Location = new Point(35, 235);
+            cardWorru.Name = "cardWorru";
+            cardWorru.ShadowDecoration.CustomizableEdges = customizableEdges47;
+            cardWorru.Size = new Size(360, 360);
+            cardWorru.TabIndex = 29;
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label32.ForeColor = Color.White;
+            label32.Location = new Point(29, 104);
+            label32.Name = "label32";
+            label32.Size = new Size(542, 56);
+            label32.TabIndex = 27;
+            label32.Text = "Lakukan teraphy agar perasaan mu menjadi lebih tenang.\r\nPilih sesuai perasaan yang sedang kamu rasakan sekarang ini.";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Poppins SemiBold", 26F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.ForeColor = Color.White;
+            label14.Location = new Point(29, 26);
+            label14.Name = "label14";
+            label14.Size = new Size(219, 78);
+            label14.TabIndex = 28;
+            label14.Text = "Teraphy";
+            // 
             // panelEvent
             // 
             panelEvent.AutoScroll = true;
@@ -1694,90 +1778,6 @@
             label25.Size = new Size(356, 78);
             label25.TabIndex = 18;
             label25.Text = "Acara Terbaru";
-            // 
-            // panelSelectCard
-            // 
-            panelSelectCard.Controls.Add(guna2Panel7);
-            panelSelectCard.Controls.Add(cardSadness);
-            panelSelectCard.Controls.Add(guna2Panel4);
-            panelSelectCard.Controls.Add(cardWorru);
-            panelSelectCard.Controls.Add(label32);
-            panelSelectCard.Controls.Add(label14);
-            panelSelectCard.Location = new Point(287, 137);
-            panelSelectCard.Name = "panelSelectCard";
-            panelSelectCard.Size = new Size(1630, 965);
-            panelSelectCard.TabIndex = 0;
-            // 
-            // guna2Panel7
-            // 
-            guna2Panel7.BackColor = Color.FromArgb(36, 35, 52);
-            guna2Panel7.BackgroundImage = Properties.Resources.card_traphy__4_;
-            guna2Panel7.BackgroundImageLayout = ImageLayout.Zoom;
-            guna2Panel7.CustomizableEdges = customizableEdges40;
-            guna2Panel7.Location = new Point(1228, 235);
-            guna2Panel7.Name = "guna2Panel7";
-            guna2Panel7.ShadowDecoration.CustomizableEdges = customizableEdges41;
-            guna2Panel7.Size = new Size(360, 360);
-            guna2Panel7.TabIndex = 30;
-            // 
-            // cardSadness
-            // 
-            cardSadness.BackColor = Color.FromArgb(36, 35, 52);
-            cardSadness.BackgroundImage = Properties.Resources.card_traphy__3_;
-            cardSadness.BackgroundImageLayout = ImageLayout.Zoom;
-            cardSadness.CustomizableEdges = customizableEdges42;
-            cardSadness.Location = new Point(829, 235);
-            cardSadness.Name = "cardSadness";
-            cardSadness.ShadowDecoration.CustomizableEdges = customizableEdges43;
-            cardSadness.Size = new Size(360, 360);
-            cardSadness.TabIndex = 31;
-            cardSadness.Click += cardSadness_Click;
-            // 
-            // guna2Panel4
-            // 
-            guna2Panel4.BackColor = Color.FromArgb(36, 35, 52);
-            guna2Panel4.BackgroundImage = Properties.Resources.card_traphy__2_;
-            guna2Panel4.BackgroundImageLayout = ImageLayout.Zoom;
-            guna2Panel4.CustomizableEdges = customizableEdges44;
-            guna2Panel4.Location = new Point(432, 235);
-            guna2Panel4.Name = "guna2Panel4";
-            guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges45;
-            guna2Panel4.Size = new Size(360, 360);
-            guna2Panel4.TabIndex = 32;
-            // 
-            // cardWorru
-            // 
-            cardWorru.BackColor = Color.FromArgb(36, 35, 52);
-            cardWorru.BackgroundImage = Properties.Resources.card_traphy__1_;
-            cardWorru.BackgroundImageLayout = ImageLayout.Zoom;
-            cardWorru.CustomizableEdges = customizableEdges46;
-            cardWorru.Location = new Point(35, 235);
-            cardWorru.Name = "cardWorru";
-            cardWorru.ShadowDecoration.CustomizableEdges = customizableEdges47;
-            cardWorru.Size = new Size(360, 360);
-            cardWorru.TabIndex = 29;
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label32.ForeColor = Color.White;
-            label32.Location = new Point(29, 104);
-            label32.Name = "label32";
-            label32.Size = new Size(542, 56);
-            label32.TabIndex = 27;
-            label32.Text = "Lakukan teraphy agar perasaan mu menjadi lebih tenang.\r\nPilih sesuai perasaan yang sedang kamu rasakan sekarang ini.";
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Poppins SemiBold", 26F, FontStyle.Bold, GraphicsUnit.Point);
-            label14.ForeColor = Color.White;
-            label14.Location = new Point(29, 26);
-            label14.Name = "label14";
-            label14.Size = new Size(219, 78);
-            label14.TabIndex = 28;
-            label14.Text = "Teraphy";
             // 
             // panel2
             // 
@@ -2313,13 +2313,13 @@
             ClientSize = new Size(1942, 1102);
             Controls.Add(panel4);
             Controls.Add(panel1);
-            Controls.Add(panelNotebook);
-            Controls.Add(panelAI);
             Controls.Add(panelDashboard);
             Controls.Add(panelKomunitas);
             Controls.Add(panelKonsultasi);
             Controls.Add(panelDetailProfile);
             Controls.Add(panelTeraphy);
+            Controls.Add(panelNotebook);
+            Controls.Add(panelAI);
             FormBorderStyle = FormBorderStyle.None;
             Name = "DashboardUser";
             StartPosition = FormStartPosition.CenterScreen;
@@ -2379,6 +2379,8 @@
             panelInsertNoteBook.ResumeLayout(false);
             panelInsertNoteBook.PerformLayout();
             panelTeraphy.ResumeLayout(false);
+            panelSelectCard.ResumeLayout(false);
+            panelSelectCard.PerformLayout();
             panelEvent.ResumeLayout(false);
             panelEvent.PerformLayout();
             flowLayoutPanelEvent.ResumeLayout(false);
@@ -2386,8 +2388,6 @@
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
-            panelSelectCard.ResumeLayout(false);
-            panelSelectCard.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBoxProfileCard).EndInit();
