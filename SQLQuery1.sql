@@ -1,0 +1,1 @@
+﻿insert into tbl_admin (id_admin, username, email, nomer_hp, alamat, password, role) values ('', 'admin1', 'admin1@gmail.com', '98765460', 'admin1', 'admin')
